@@ -1,0 +1,14 @@
+<resources>
+
+   
+    
+        <style name="myAppTheme" >
+
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:textColor">#FF0000FF</item>
+        <item name="android:textSize">20sp</item>
+    </style>   
+
+
+
+</resources>

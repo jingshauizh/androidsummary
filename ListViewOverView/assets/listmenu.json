@@ -1,0 +1,22 @@
+[
+    {
+      "operator":"admin1",
+      "loginDate":"2012-10-20 10:28:10",
+      "logoutDate":"2012-10-20 10:32:10"
+    },
+    {
+      "operator":"admin2",
+      "loginDate":"2012-10-22 10:20:10",
+      "logoutDate":"2012-10-22 10:32:10"
+    },
+    {
+      "operator":"admin3",
+     "loginDate":"2012-10-23 10:28:10",
+    "logoutDate":"2012-10-23 10:32:10"
+    },
+    {
+      "operator":"admin4",
+      "loginDate":"2012-10-20 10:28:10",
+      "logoutDate":"2012-10-23 10:32:10"
+     }
+ ]

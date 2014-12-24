@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent" >
+ 	 
+     <TextView         
+         android:id="@+id/operator_tv"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="15dp" />
+ 
+     <TextView         
+         android:id="@+id/loginDate_tv"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@id/operator_tv"
+         android:layout_below="@id/operator_tv" />
+ 
+     <TextView          
+         android:id="@+id/logoutDate_tv"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignTop="@+id/loginDate_tv"
+         android:layout_marginLeft="15dp"
+         android:layout_toRightOf="@+id/loginDate_tv" />
+ 
+</RelativeLayout>
+
+
