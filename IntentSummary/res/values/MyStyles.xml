@@ -2,7 +2,7 @@
 
    
     
-        <style name="myAppTheme" >
+        <style name="myAppTheme" parent="Theme.AppCompat.Light">
 
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
         <item name="android:textColor">#FF0000FF</item>

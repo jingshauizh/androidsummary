@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IntentSummary</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main_intentopen">MainActivity</string>
+	<string name="open_phone_call">打电话</string>
+	<string name="open_activity">打开Activity并get返回值</string>
+	<string name="send_message">发短信</string>
+	<string name="send_message_attach">发彩信</string>
+	<string name="send_email">发邮件</string>
+	<string name="send_play_mp3">播放媒体</string>
+	<string name="send_search">搜索</string>
+	<string name="send_open_browser">打开网页</string>
+	<string name="send_hide_intent">隐式Intent</string>
+</resources>
