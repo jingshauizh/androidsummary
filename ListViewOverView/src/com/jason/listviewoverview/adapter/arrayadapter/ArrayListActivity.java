@@ -27,6 +27,22 @@ public class ArrayListActivity extends Activity {
 		list.add("test data 2");
 		list.add("test data 3");
 		list.add("test data 4");
+		list.add("test data 1");
+		list.add("test data 2");
+		list.add("test data 3");
+		list.add("test data 4");
+		list.add("test data 1");
+		list.add("test data 2");
+		list.add("test data 3");
+		list.add("test data 4");
+		list.add("test data 1");
+		list.add("test data 2");
+		list.add("test data 3");
+		list.add("test data 4");
+		list.add("test data 1");
+		list.add("test data 2");
+		list.add("test data 3");
+		list.add("test data 4");
 		return list;
 
 	}
