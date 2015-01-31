@@ -31,7 +31,8 @@
             android:layout_height="64dp"
             android:layout_marginLeft="5px"
             android:text="search"
-             />
+             />  
+     
     </LinearLayout>
 
 </RelativeLayout>

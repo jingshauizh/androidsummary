@@ -23,8 +23,12 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.widgetsummary.activity.AutoCompleteActivity"
+            android:name=".activity.AutoCompleteActivity"
             android:label="@string/title_activity_auto_complete" >
+        </activity>
+        <activity
+            android:name="com.example.widgetsummary.activity.SpinnerActivity"
+            android:label="@string/title_activity_spinner" >
         </activity>
     </application>
 

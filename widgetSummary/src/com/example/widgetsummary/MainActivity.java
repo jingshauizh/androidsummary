@@ -1,6 +1,7 @@
 package com.example.widgetsummary;
 
 import com.example.widgetsummary.activity.AutoCompleteActivity;
+import com.example.widgetsummary.activity.SpinnerActivity;
 
 import android.support.v7.app.ActionBarActivity;
 import android.content.Intent;
@@ -28,6 +29,13 @@ public class MainActivity extends ActionBarActivity {
 		Intent intent = new Intent(v.getContext(),AutoCompleteActivity.class);
 		startActivity(intent);
 	}
+	
+	public void gotoSpinner(View v){
+		Intent intent = new Intent(v.getContext(),SpinnerActivity.class);
+		startActivity(intent);
+	}
+	
+	
 
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
