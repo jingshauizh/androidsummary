@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="220dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="23dp"
+            android:paddingBottom="10px"
+            android:paddingTop="21px" >
+
+             <ImageView
+                 android:id="@+id/faceImg"
+                 android:layout_width="120dp"
+                 android:layout_height="180dp"
+                 android:layout_marginLeft="25dp"
+                 android:layout_alignParentLeft="true"
+                 android:layout_alignParentTop="true"
+                  />
+
+			 <LinearLayout
+			     android:layout_width="match_parent"
+			     android:layout_height="wrap_content"
+			      android:layout_marginLeft="15dp"
+			     android:layout_alignTop="@+id/faceImg"
+			     android:layout_toRightOf="@+id/faceImg"
+			     android:orientation="vertical" >
+
+		            <TextView
+		                android:id="@+id/textName"
+		                android:layout_marginTop="23dp"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content" 
+		                android:paddingLeft="7sp"
+		                android:text="Name:" />			
+		            <TextView
+		                android:id="@+id/textCategory"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:gravity="center_vertical"
+		                android:paddingLeft="7sp"
+		                android:layout_marginTop="23dp"
+		                android:text="Category:"
+		                android:textSize="16dp" />
+		            <TextView
+		                android:id="@+id/textAttribute"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:gravity="center_vertical"
+		                android:paddingLeft="7sp"
+		                android:layout_marginTop="23dp"
+		                android:text="Attribute:"
+		                android:textSize="16dp" />
+			</LinearLayout>
+          
+
+        </RelativeLayout>
+		<TextView
+		    	android:id="@+id/textViewDesTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"               
+                android:gravity="center_vertical"
+                android:paddingLeft="7sp"
+                android:text="Description："
+                android:textSize="16dp" /> 
+                
+		<TextView
+		    	android:id="@+id/textViewDesText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"               
+                android:gravity="center_vertical"
+                android:paddingLeft="7sp"
+                android:text=""
+                android:textSize="16dp" /> 
+    </LinearLayout>
+
+
+
+</LinearLayout>
