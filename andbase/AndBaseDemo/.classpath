@@ -5,6 +5,6 @@
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="gen"/>
-	<classpathentry kind="lib" path="E:/3code/andbase/AndBaseDemo/libs/Volley.jar"/>
+	<classpathentry kind="lib" path="C:/3code/gitcode/Android/androidsummary/andbase/AndBaseDemo/libs/Volley.jar"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>

@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eee"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/title_bar" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="设置"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/settings_first_item"
+                    android:clickable="true"
+                    android:drawableRight="@drawable/mm_submenu_normal"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="25dp"
+                    android:text="个人信息"
+                    android:textColor="#000"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/settings_nomal_item"
+                    android:clickable="true"
+                    android:drawableRight="@drawable/mm_submenu_normal"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="25dp"
+                    android:text="二维码名片"
+                    android:textColor="#000"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/settings_nomal_item"
+                    android:clickable="true"
+                    android:drawableRight="@drawable/mm_submenu_normal"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="25dp"
+                    android:text="腾讯微博"
+                    android:textColor="#000"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/settings_last_item"
+                    android:clickable="true"
+                    android:drawableRight="@drawable/mm_submenu_normal"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="25dp"
+                    android:text="添加朋友"
+                    android:textColor="#000"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/settings_first_item"
+                    android:clickable="true"
+                    android:drawableRight="@drawable/mm_submenu_normal"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="25dp"
+                    android:text="我的帐号"
+                    android:textColor="#000"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/settings_last_item"
+                    android:clickable="true"
+                    android:drawableRight="@drawable/mm_submenu_normal"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="25dp"
+                    android:text="信鸿洋得永生"
+                    android:textColor="#000"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/friends_item"
+                    android:clickable="true"
+                    android:drawableRight="@drawable/mm_submenu_normal"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="25dp"
+                    android:text="聊天背景"
+                    android:textColor="#000"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/settings_first_item"
+                    android:clickable="true"
+                    android:drawableRight="@drawable/mm_submenu_normal"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="25dp"
+                    android:text="通用"
+                    android:textColor="#000"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/settings_nomal_item"
+                    android:clickable="true"
+                    android:drawableRight="@drawable/mm_submenu_normal"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="25dp"
+                    android:text="插件"
+                    android:textColor="#000"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/settings_nomal_item"
+                    android:clickable="true"
+                    android:drawableRight="@drawable/mm_submenu_normal"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="25dp"
+                    android:text="黑名单"
+                    android:textColor="#000"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/settings_nomal_item"
+                    android:clickable="true"
+                    android:drawableRight="@drawable/mm_submenu_normal"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="25dp"
+                    android:text="隐私"
+                    android:textColor="#000"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/settings_nomal_item"
+                    android:clickable="true"
+                    android:drawableRight="@drawable/mm_submenu_normal"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="25dp"
+                    android:text="系统通知"
+                    android:textColor="#000"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/settings_last_item"
+                    android:clickable="true"
+                    android:drawableRight="@drawable/mm_submenu_normal"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="25dp"
+                    android:text="流量同级"
+                    android:textColor="#000"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/settings_first_item"
+                    android:clickable="true"
+                    android:drawableRight="@drawable/mm_submenu_normal"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="25dp"
+                    android:text="帮助与反馈"
+                    android:textColor="#000"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/settings_last_item"
+                    android:clickable="true"
+                    android:drawableRight="@drawable/mm_submenu_normal"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="25dp"
+                    android:text="关于微信"
+                    android:textColor="#000"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/friends_item"
+                    android:clickable="true"
+                    android:drawableRight="@drawable/mm_submenu_normal"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="25dp"
+                    android:text="清空聊天记录"
+                    android:textColor="#000"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical" >
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="20sp"
+                    android:layout_marginRight="20sp"
+                    android:background="@drawable/exit_btn"
+                    android:gravity="center"
+                    android:text="退出登录"
+                    android:textColor="#fff"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+    <!--
+       sliding:behindScrollScale="@dimen/YOUR_SCALE"
+
+        
+         sliding:selectorDrawable="@drawable/YOUR_SELECTOR"
+        sliding:selectorEnabled="true|false"
+        sliding:shadowDrawable="@drawable/YOUR_SHADOW"
+        sliding:shadowWidth="@dimen/YOUR_SHADOW_WIDTH"
+        sliding:viewAbove="@layout/YOUR_ABOVE_VIEW"
+        sliding:viewBehind="@layout/YOUR_BEHIND_BEHIND"
+ sliding:behindOffset="120dp"
+    -->
